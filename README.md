@@ -97,7 +97,7 @@ python3 --version
 Display the help menu:
 
 ```bash
-python3 nc.py -h
+python3 meow_cat.py -h
 ```
 
 Available options:
@@ -122,7 +122,7 @@ These options are implemented using Python's `argparse` module.
 Start the server:
 
 ```bash
-python3 nc.py -t 0.0.0.0 -p 5000 -l -c
+python3 meow_cat.py -t 0.0.0.0 -p 5000 -l -c
 ```
 
 Then connect from another authorized machine or terminal:
@@ -142,7 +142,7 @@ The `-e` option allows a listener to execute a specified command when a client c
 Example:
 
 ```bash
-python3 nc.py -t 0.0.0.0 -p 5000 -l -e "whoami"
+python3 meow_cat.py -t 0.0.0.0 -p 5000 -l -e "whoami"
 ```
 
 The command is processed through the program's command execution function.
@@ -154,7 +154,7 @@ The command is processed through the program's command execution function.
 The listener can receive data from a client and save it to a specified file:
 
 ```bash
-python3 nc.py -t 0.0.0.0 -p 5000 -l -u received.txt
+python3 meow_cat.py -t 0.0.0.0 -p 5000 -l -u received.txt
 ```
 
 The server collects incoming data and writes it to the specified file.
@@ -167,11 +167,11 @@ The project currently consists primarily of:
 
 ```text
 .
-├── nc.py
+├── meow_cat.py
 └── README.md
 ```
 
-The main components of `nc.py` are:
+The main components of `meow_cat.py` are:
 
 ```text
 NetCat
