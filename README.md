@@ -236,7 +236,7 @@ Through this project, I practiced:
 
 ## Development Journey
 
-This project also helped me understand several practical problems that don't always become obvious when learning Python syntax alone.
+This project started as a result of me trying to automate random things using python. I was working with sockets in python and got the idea of actually making a tool with it. I started with grabbing banners and other random things. After sometime , being comfortable with the program logic, I started working on creating a netcat replacement tool(the main idea was to combine both the workings of netcat and ffuf in the same tool as it will then help us to actually brute force into things where ffuf can't be used). Finally after two months this project was complete :) , even though there were a lot of tings that I had to actually do and debug before uploading the project.
 
 For example, I had to debug:
 
@@ -290,6 +290,7 @@ Possible future additions:
 * [ ] Interactive session improvements
 
 ---
+(along with trying to implement the working of ffuf in it)
 
 ## Technologies
 
@@ -342,6 +343,7 @@ Use it **only on systems and networks that you own or have explicit permission t
 The author is not responsible for misuse of this software.
 
 ---
+(100% HUMAN-MADE, NO ADDED AI ;) ).
 
 ## Author
 
